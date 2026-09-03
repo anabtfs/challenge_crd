@@ -72,19 +72,38 @@ The failure is therefore expected and documented; it represents a business-rule 
 ## Running the tests
 
 Create and activate a virtual environment, then install pytest:
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install pytest
+
+### Windows
+``python -m venv .venv ``
+
+``.venv\Scripts\Activate.ps1``  OR ``.venv\Scripts\Activate.bat``
+
+``python -m pip install -r requirements.txt``
 
 Run the tests from the project root:
 
-python -m pytest tests\test_rebalance.py -v
+``python -m pytest tests\test_rebalance.py -v``
+
+### Linux
+``python -m venv .venv ``
+
+``source .venv/bin/activate``
+
+``python -m pip install -r requirements.txt``
+
+Run the tests from the project root:
+
+``python -m pytest tests/test_rebalance.py -v``
 
 ## Generating the test report
 
 To run the automated tests and generate a self-contained HTML report:
 
-python -m pytest tests\test_rebalance.py -v --html=reports\rebalance_test_report.html --self-contained-html
+### Windows
+``python -m pytest tests\test_rebalance.py -v --html=reports\rebalance_test_report.html --self-contained-html``
+
+### Linux
+``python -m pytest tests/test_rebalance.py -v --html=reports/rebalance_test_report.html --self-contained-html``
 
 ## Final note
 
