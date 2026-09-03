@@ -1,0 +1,78 @@
+{
+  "account_id": "ABC",
+  "total_assets": 100000.0,
+  "exact_target_achieved": false,
+  "portfolio_details": [
+    {
+      "security": "IBM",
+      "target_percent": 20.0,
+      "current_percent": 10.0,
+      "target_variance_percent": -10.0,
+      "unit_price": 150.0,
+      "current_value": 10000.0,
+      "target_value": 20000.0,
+      "action": "BUY",
+      "shares_to_buy_sell": 66,
+      "final_value": 19900.0,
+      "final_percent": 19.9,
+      "final_target_variance_percent": -0.1
+    },
+    {
+      "security": "MSFT",
+      "target_percent": 20.0,
+      "current_percent": 20.0,
+      "target_variance_percent": 0.0,
+      "unit_price": 90.0,
+      "current_value": 20000.0,
+      "target_value": 20000.0,
+      "action": "HOLD",
+      "shares_to_buy_sell": 0,
+      "final_value": 20000.0,
+      "final_percent": 20.0,
+      "final_target_variance_percent": 0.0
+    },
+    {
+      "security": "ORCL",
+      "target_percent": 20.0,
+      "current_percent": 30.0,
+      "target_variance_percent": 10.0,
+      "unit_price": 220.0,
+      "current_value": 30000.0,
+      "target_value": 20000.0,
+      "action": "SELL",
+      "shares_to_buy_sell": -45,
+      "final_value": 20100.0,
+      "final_percent": 20.1,
+      "final_target_variance_percent": 0.1
+    },
+    {
+      "security": "AAPL",
+      "target_percent": 20.0,
+      "current_percent": 20.0,
+      "target_variance_percent": 0.0,
+      "unit_price": 450.0,
+      "current_value": 20000.0,
+      "target_value": 20000.0,
+      "action": "HOLD",
+      "shares_to_buy_sell": 0,
+      "final_value": 20000.0,
+      "final_percent": 20.0,
+      "final_target_variance_percent": 0.0
+    },
+    {
+      "security": "HD",
+      "target_percent": 20.0,
+      "current_percent": 20.0,
+      "target_variance_percent": 0.0,
+      "unit_price": 70.0,
+      "current_value": 20000.0,
+      "target_value": 20000.0,
+      "action": "HOLD",
+      "shares_to_buy_sell": 0,
+      "final_value": 20000.0,
+      "final_percent": 20.0,
+      "final_target_variance_percent": 0.0
+    }
+  ],
+  "available_cash": 0.0
+}

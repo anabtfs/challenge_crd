@@ -1,0 +1,36 @@
+{
+  "account_id": "ABC",
+  "total_assets": 100000.0,
+  "portfolio_details": [
+    {
+      "security": "IBM",
+      "target_percent": 20.0,
+      "current_percent": 10.0,
+      "unit_price": 150.0
+    },
+    {
+      "security": "MSFT",
+      "target_percent": 20.0,
+      "current_percent": 20.0,
+      "unit_price": 90.0
+    },
+    {
+      "security": "ORCL",
+      "target_percent": 20.0,
+      "current_percent": 30.0,
+      "unit_price": 220.0
+    },
+    {
+      "security": "AAPL",
+      "target_percent": 20.0,
+      "current_percent": 20.0,
+      "unit_price": 450.0
+    },
+    {
+      "security": "HD",
+      "target_percent": 20.0,
+      "current_percent": 20.0,
+      "unit_price": 70.0
+    }
+  ]
+}
